@@ -1,0 +1,79 @@
+.button{
+    margin-top: 350px;
+    height: 90px;
+    width: 220px;
+    left: 10px;;
+    background-color: #f9ac27;
+    margin-top:250px;
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 22px;
+    border:2px solid #f9040d;
+    font-style: italic;
+    -webkit-animation: myanimation 5s;
+}
+
+#button2{
+    margin-left: 450px;
+}
+
+button:hover{
+    font-size:28px;
+    transition: font-size 0.3s ease;
+}
+
+.header
+{ list-style:none;
+  padding-top:0px;
+  margin: 1px auto;
+  width: 800px;
+    width: -webkit-fit-content;
+}
+.header li {
+  background: #34495e;
+  float: left;
+  position: relative;
+  -webkit-transform: skewX(25deg);
+}
+
+.header a {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial, Helvetica;
+  font-size: 14px;
+}
+.header li:hover {
+  background: #e74c3c;
+}
+
+.header li a {
+	-webkit-transform: skewX(-25deg);
+  padding: 1em 2em;
+}
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: #212121;
+  height: 100%;
+}
+
+.container {
+ height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  margin-top:100px;
+  left: 50px;
+  top:200px;
+  }
+
+@-webkit-keyframes myanimation{
+0% {background:#fcc567;}
+25% {background:#f79e04;}
+50% {background:#c98208;}
+75% {background:#c99844;}
+100% {background:#f9ac27;}
+}
+
